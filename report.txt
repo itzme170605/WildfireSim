@@ -1,0 +1,60 @@
+============================ ASSIGNMENT REPORT ============================
+Assignment name is: Wildfire
+My name is: Jatin Jain
+
+	[USE PLAIN TEXT]
+	[INSERT ANSWERS AFTER EACH QUESTION AND ADD MORE LINES AS NEEDED.]
+	[MAKE YOUR ANSWERS SHORT AND TO THE POINT. BULLET POINTS ARE GOOD.]
+
+===== In what cases does the program run correctly?  =================
+- if bad arguments provided, program runs with default values after printing error
+- if good aruments provided runs with those arguments
+
+===== In what cases does the program fail and how?  ==================
+- - If the grid size is set outside the defined limits (less than 5 or greater than 40), it defaults to the standard size without clear notification.
+ - If invalid character inputs are provided (not among defined constants), the program may produce undefined behavior or fail to compile.
+ - Potential memory issues if grid size is set dynamically without proper bounds checking.
+
+===== If applicable, what were the extra credit results?  ============
+- implemented dampness - where during grid initialization there is a 1 in 4 chanv\ce for a damp tree to be initialised randomly
+- if the tree is damp e_pCatch is calculated by subtracting the stdin -DN value and implementing the same susceptibility logic
+- -1 < N < 100 that is a tree is by default dry pDampness = 0, but if -DN passed should be in the value range s[pecified
+- assigns to default if bad params passed
+
+- implemented lightning where -Ln, n should be in the range -1<n<100, and default value is 0, 
+- no lightning strikes happen in this vcase as we specify lightning_liklness < pLightning, thereby ensuring the above
+- if the likliness of lightning is less than pLightning then lightning strikes a tree (!)
+- cycle loop :
+    Y -> ! -> * (3 cycles) -> .
+      -> ! -> Y 
+- some good values are -L50, -L40 where we can see lightning strike atleast once and burn a tree.
+- ./wildfire -d100 -c100 -b5 -n30 [-L60] run with and without to see the effect 
+- ./wildfire -d100 -c100 -b1 [-L60] run with and without to see the difference 
+
+===== If applicable, describe how to run the extra credit.  ==========
+ - to run extra credit code, just specify -Ln or -DN paramaters in stdin 
+    eg: ./wildfire -L50 //runs with pLightning 50, and default arguments 
+===== How much time did I spend on the project?  =====================
+ Approximately 15 hours including research, coding, and testing.
+
+===== What did I learn?  =============================================
+Gained experience with simulation algorithms and grid-based representations.
+ - Improved understanding of user input handling and error management in C.
+ - Learned about terminal control for dynamic output display.
+
+===== What was easy in this assignment?  =============================
+Setting up the basic grid structure and initial conditions for the simulation.
+- Implementing the logic for tree growth and burning states.
+
+===== What gave me problems or troubles?  ============================
+ Debugging issues related to pointer arithmetic and array bounds in C.
+ - Ensuring that the simulation properly handled various input scenarios.
+ - Overlay disply mode
+ - logic for simulation, and keeping track of fire states
+===== What would be the most important improvement for the project?  =
+- reduce timme and memory complexity, being able to use malloc 
+
+===== What else would I have liked to do for this assignment?  =======
+- grow trees, trees near more trees afrter couple cycles grows
+- adding more environmental factors like wind inflkuence ext.
+============================================================================

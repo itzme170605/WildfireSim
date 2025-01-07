@@ -1,0 +1,59 @@
+commit 45cabfda82f1df5bf7d3472cdfe07660909041eb
+Author: Jatin <jj7485@rit.edu>
+Date:   Mon Oct 28 22:29:35 2024 -0400
+
+    Updated report
+
+commit 5a177b4f991f41f5d6da16303cd8dd1219bc09cb
+Author: Jatin <jj7485@rit.edu>
+Date:   Mon Oct 28 22:22:35 2024 -0400
+
+    Extra credit work added
+
+commit 28f2124f71c6dd43b95f203d8c73e979438a4ac5
+Author: Jatin <jj7485@rit.edu>
+Date:   Mon Oct 28 14:55:36 2024 -0400
+
+    report finished
+
+commit 407abe5341feaa39066a607c183bc921c4e1068a
+Author: Jatin <jj7485@rit.edu>
+Date:   Mon Oct 28 14:14:36 2024 -0400
+
+    copied code from wildfire2.c to wildiire,c
+
+commit e2a2ff851e6bb72b7ddae5996c7be70dce9b4685
+Author: Jatin <jj7485@rit.edu>
+Date:   Mon Oct 28 14:13:57 2024 -0400
+
+    added overlay functionality, and radom seed in wildfire2.c'
+
+commit 96a7d282599454f69b8ed5b4159f737095237da8
+Author: Jatin <jj7485@rit.edu>
+Date:   Mon Oct 28 06:32:43 2024 -0400
+
+    fixed bugs, and added function run_simulation in wildfire2.c
+
+commit d2b0ba42f77bbc88359b9a507cff725428cc8913
+Author: Jatin <jj7485@rit.edu>
+Date:   Mon Oct 28 05:16:38 2024 -0400
+
+    update and spread function added in wildifre2.c'
+
+commit 98a419d47f0c7a02eedd1f793c48168ab4dad63d
+Author: Jatin <jj7485@rit.edu>
+Date:   Fri Oct 25 12:59:00 2024 -0400
+
+    print and initial grid implemented'
+
+commit 6dd3ffd7ac0144232129869ef4b7873f96f90503
+Author: Jatin <jj7485@rit.edu>
+Date:   Fri Oct 25 12:22:27 2024 -0400
+
+    implemented parse args
+
+commit 295651da259aa109634aabcdc6574db49f2d9ea8
+Author: Jatin <jj7485@rit.edu>
+Date:   Thu Oct 24 10:21:06 2024 -0400
+
+    initial commit - forgotgit add .
