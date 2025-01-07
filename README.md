@@ -1,5 +1,6 @@
 # WildfireSim
 Wildfire Simulation  This project implements a two-dimensional computer simulation to model the spread of wildfire in a forest environment. 
+this is the first project for Mechanics of Programming(Fall 2024), aiming to ecplore and implementdifferent alogorithms and optimization techniques i experimented with and implemented.
 
 **Features:**
 
